@@ -21,3 +21,4 @@ end
 require "lazy_setup"
 require "polish"
 require "keybindings"
+require "auto_format"
