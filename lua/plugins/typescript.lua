@@ -1,6 +1,5 @@
 return {
   "AstroNvim/astrocommunity",
-  { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.blade" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.json" },
