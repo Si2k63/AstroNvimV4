@@ -1,6 +1,6 @@
 -- auto-remove unused imports when saving a file
 vim.api.nvim_create_autocmd("BufWritePre", {
-  pattern = { "*.tsx", "*.ts" },
+  pattern = { "*.tsx", "*.ts", "*.js", "*.jsx" },
   callback = function()
     vim.lsp.buf.code_action({
       apply = true,
